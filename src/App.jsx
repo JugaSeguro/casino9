@@ -9,7 +9,7 @@ import './styles/popup.css';
 import { useLandingPhone } from '@shared/useLandingPhone';
 
 function App() {
-  const { phoneData, loading, error } = useLandingPhone(3);
+  const { phoneData, loading, error } = useLandingPhone();
   const [showPopup, setShowPopup] = useState(false);
 
   // Efectos al cargar el componente
